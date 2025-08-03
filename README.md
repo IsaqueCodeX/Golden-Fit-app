@@ -1,105 +1,110 @@
-# Golden Fit: Seu Personal Trainer com Inteligência Artificial 🚀
+# 💪 Golden Fit — Seu Personal Trainer com Inteligência Artificial
 
-![Golden Fit Preview](https://i.postimg.cc/3N6qN5sj/image.png)
-
-**Golden Fit** é uma aplicação de fitness completa, projetada para ser um companheiro de treino pessoal no seu bolso. Desenvolvido com um design elegante e responsivo, o app permite que os usuários criem perfis detalhados, sigam planos de treino estruturados, monitorem seu progresso em tempo real e, o mais importante, recebam motivação e desafios personalizados gerados pela IA "Golden Coach".
+> App fitness com IA, feito sob medida para os meus treinos e os da minha esposa — desenvolvido do zero com apoio da Google Gemini.
 
 ---
 
-## ✨ Funcionalidades Principais
+## 🖼️ Galeria de Telas
 
-- **Criação de Perfil Personalizado:** Configure seu nome, gênero, idade, altura, peso e objetivo principal (Ganhar Massa, Perder Gordura, etc.) para uma experiência sob medida.
-- **Planos de Treino Estruturados:** Acesso a planos de treino completos para 5 dias, com divisões específicas e exercícios detalhados para os gêneros masculino e feminino.
-- **Execução de Treino em Tempo Real:** Uma interface imersiva para acompanhar cada exercício, marcar séries como concluídas, registrar a carga utilizada e usar um timer de descanso integrado.
-- **Rastreamento de Progresso e Histórico:**
-    - **Gráficos de Evolução:** Visualize seu progresso de carga para cada exercício ao longo do tempo.
-    - **Recordes Pessoais (PRs):** O app salva automaticamente seus melhores levantamentos.
-    - **Estatísticas Detalhadas:** Acompanhe o total de treinos concluídos, calorias queimadas por semana e seu Índice de Massa Corporal (IMC).
-- **Golden Coach (IA com Google Gemini):**
-    - **🧠 Desafios da Semana:** Receba desafios semanais curtos e motivadores, gerados pela IA com base no seu perfil e histórico.
-    - **🧠 Feedback Pós-Treino:** Após cada treino, a IA gera uma mensagem personalizada, celebrando seu esforço e recordes batidos.
-- **Rastreador de Hidratação:** Monitore sua ingestão diária de água com uma interface interativa e visual.
-- **Design Responsivo (Mobile-First):** Interface otimizada para uma experiência perfeita em dispositivos móveis.
-- **Pronto para Celular com Capacitor:** O projeto está configurado para ser facilmente compilado como um aplicativo nativo para Android.
+| Tela Inicial | Cadastro de Perfil | Execução do Exercício |
+|--------------|--------------------|------------------------|
+| ![Tela Inicial](https://i.postimg.cc/pLXgCvvZ/Screenshot_2025-08-03-19-09-30-705_com.goldenfit.app.jpg) | ![Cadastro](https://i.postimg.cc/KjJ03XCp/Screenshot_2025-08-03-18-55-49-318_com.goldenfit.app.jpg) | ![Execução](https://i.postimg.cc/65hkC3kq/Screenshot_2025-08-03-19-10-03-513_com.goldenfit.app.jpg) |
+
+| Conclusão de Treino | Tela de Perfil |
+|----------------------|----------------|
+| ![Conclusão](https://i.postimg.cc/xTQ5GPQy/Screenshot_2025-08-03-19-10-13-595_com.goldenfit.app.jpg) | ![Perfil](https://i.postimg.cc/nrbJSmzf/Screenshot_2025-08-03-18-51-58-976_com.goldenfit.app.jpg) |
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## ✨ Funcionalidades
 
-O projeto foi construído com um stack moderno de desenvolvimento frontend:
-
-- **Frontend:** [React](https://reactjs.org/)
-- **Linguagem:** [TypeScript](https://www.typescriptlang.org/)
-- **Ferramenta de Build:** [Vite](https://vitejs.dev/)
-- **Estilização:** [Tailwind CSS](https://tailwindcss.com/)
-- **Inteligência Artificial:** [Google Gemini API](https://ai.google.dev/)
-- **Gráficos:** [Recharts](https://recharts.org/)
-- **Build Nativo (Mobile):** [Capacitor](https://capacitorjs.com/)
+- 🎯 **Perfil Personalizado:** Nome, gênero, idade, altura, peso e objetivo (ganho de massa, perda de gordura etc.)
+- 📅 **Planos de Treino Estruturados:** Rotinas divididas por dias e gênero, com exercícios detalhados
+- ⏱️ **Execução em Tempo Real:** Timer de descanso, marcação de séries, registro de carga
+- 📈 **Progresso Visual:** 
+  - Gráficos interativos por exercício
+  - Recordes pessoais (PRs) salvos automaticamente
+  - Estatísticas de treino, calorias e IMC
+- 🤖 **Golden Coach (IA com Google Gemini):**
+  - Desafios semanais personalizados
+  - Feedback motivacional pós-treino
+- 💧 **Rastreamento de Hidratação:** Controle visual e interativo da ingestão de água
+- 📱 **Design Mobile-First:** Interface responsiva e fluida
+- 📦 **Pronto para Publicação no Android (Capacitor)**
 
 ---
 
-## 🚀 Como Executar o Projeto
+## 🛠️ Tecnologias
 
-Siga os passos abaixo para rodar o Golden Fit localmente.
+- **React + TypeScript** — Frontend moderno e tipado
+- **Vite** — Build rápido e leve
+- **Tailwind CSS** — Estilo responsivo e utilitário
+- **Google Gemini API** — Geração de textos e desafios por IA
+- **Recharts** — Gráficos de evolução
+- **Capacitor** — Geração de app nativo para Android
+
+---
+
+## ⚙️ Como Rodar Localmente
 
 ### Pré-requisitos
 
-- [Node.js](https://nodejs.org/en/) (versão 18 ou superior)
-- `npm` ou `yarn`
+- [Node.js](https://nodejs.org/en/) (versão 18+)
+- npm ou yarn
 
-### Instalação e Configuração
+### Passos
 
-1.  **Clone o repositório:**
-    ```bash
-    git clone https://github.com/IsaqueCodeX/Golden-Fit-app.git
-    cd Golden-Fit-app
-    ```
+```bash
+# 1. Clone o projeto
+git clone https://github.com/IsaqueCodeX/Golden-Fit-app.git
+cd Golden-Fit-app
 
-2.  **Instale as dependências:**
-    ```bash
-    npm install
-    ```
+# 2. Instale as dependências
+npm install
 
-3.  **Configure sua Chave de API do Gemini:**
-    - Crie um arquivo chamado `.env.local` na raiz do projeto.
-    - Dentro dele, adicione sua chave de API do Google Gemini, conforme o exemplo abaixo:
-      ```env
-      VITE_API_KEY=SUA_CHAVE_DE_API_SECRETA_AQUI
-      ```
+# 3. Configure sua chave da API Gemini
+echo "VITE_API_KEY=SUA_CHAVE_DE_API" > .env.local
 
-4.  **Rode o projeto em modo de desenvolvimento:**
-    ```bash
-    npm run dev
-    ```
-    O aplicativo estará disponível em `http://localhost:5173`.
+# 4. Rode o projeto
+npm run dev
+```
 
-### Compilando para Android (com Capacitor)
-
-1.  **Adicione a plataforma Android:**
-    ```bash
-    npx cap add android
-    ```
-
-2.  **Sincronize sua aplicação web com o projeto nativo:**
-    - Este comando compila o projeto web e copia os arquivos para a pasta do Android.
-    ```bash
-    npm run cap:sync
-    ```
-
-3.  **Abra o projeto no Android Studio:**
-    ```bash
-    npx cap open android
-    ```
-    - Dentro do Android Studio, você pode compilar e rodar o aplicativo em um emulador ou em um dispositivo físico.
+> O app estará acessível em `http://localhost:5173`.
 
 ---
 
-## 👤 Contato
+## 📲 Compilar para Android com Capacitor
 
-**Isaque Santos**
+```bash
+# Adicione a plataforma Android
+npx cap add android
+
+# Compile e sincronize com o projeto nativo
+npm run cap:sync
+
+# Abra no Android Studio
+npx cap open android
+```
+
+---
+
+## 👤 Sobre o Desenvolvedor
+
+**Isaque Santos**  
+Estudante de Análise e Desenvolvimento de Sistemas apaixonado por tecnologia, inteligência artificial e o mundo fitness.
 
 - GitHub: [@IsaqueCodeX](https://github.com/IsaqueCodeX)
-- LinkedIn: [Seu Perfil no LinkedIn](https://www.linkedin.com/in/seu-usuario/)
-- Email: isaque.v.l@gmailcom
+- LinkedIn: [linkedin.com/in/isaque-santos-720b8b15a](https://www.linkedin.com/in/isaque-santos-720b8b15a)
+- Email: isaque.v.l@gmail.com
 
-Sinta-se à vontade para entrar em contato!
+---
+
+## ⭐ Contribuições
+
+Este projeto é um estudo pessoal, mas sugestões, issues ou feedbacks são sempre bem-vindos!
+
+---
+
+## 📜 Licença
+
+Este repositório está sob a licença MIT.

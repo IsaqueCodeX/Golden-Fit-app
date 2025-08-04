@@ -1,6 +1,6 @@
 # 💪 Golden Fit — Seu Personal Trainer com Inteligência Artificial
 
-> App fitness com IA, feito sob medida para os meus treinos e os da minha esposa — desenvolvido do zero com apoio da Google Gemini.
+> App fitness com IA, feito sob medida para os meus treinos diarios — desenvolvido do zero com apoio da Google Gemini.
 
 ---
 
